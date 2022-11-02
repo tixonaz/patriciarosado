@@ -1,0 +1,313 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;;
+    color: #393E41;
+    
+}
+
+h2 {
+    font-size: 27px;
+}
+
+header {
+    background-image: url(/images/Design\ sem\ nome.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.intro {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.intro h1 {
+    color:#EA8C55; 
+    margin: 6px 0px 20px;
+    font-size: 65px;
+}
+
+.intro h2 {
+    color:#EA8C55;
+    font-size: 40px;
+    
+}
+
+
+.intro h3 {
+    color: #393E41;
+    font-size: 35px;
+}
+
+
+
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 19px;
+}
+
+header li a{
+    color: #393E41;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+header li a:hover {
+    color: #EA8C55;
+    transition: .3s
+}
+
+
+.about-me {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.sidebar {
+    width: 25%;
+    height: 100%;
+    float: left;
+    border-collapse: collapse;
+    display: grid;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+   
+
+}
+
+.sidebar img {
+    height: auto;
+    width: 100%;
+    
+}
+
+.sidebar p {
+    margin-bottom: 30px;
+}
+
+.sidebar h2 {
+    margin-bottom: 30px;
+}
+
+
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FBF4EC;
+    border-radius: 30px;
+    padding: 10px 25px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.button:hover {
+    color: #EA8C55;
+    transition: .3s
+}
+
+.work h2, .skills h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    COLOR: #EA8C55;
+}
+
+
+.work {
+
+    width: 50%;
+    height: 100%;
+    float: left;
+    border-collapse: collapse;
+    display: grid;
+    align-content: center;  
+    padding-left: 7%;
+    padding-right: 7%;
+    box-shadow: 0 0 2px rgba(0,0,0,0.1);
+    
+    
+}
+
+
+
+.work ul li {
+    list-style-type: square;
+    margin-bottom: 30px;
+    list-style-position: inside;
+
+}
+
+.work h4 {
+    margin-bottom: 10px;
+}
+
+
+.profissional h4 {
+    margin-top: 30px;
+}
+
+.profissional ul {
+    margin-bottom: 30px;
+}
+
+.profissional p {
+    margin-bottom: 5%;
+}
+
+
+
+.skills {
+    width: 25%;
+    height: 100%;
+    position: relative;
+    float: right;
+    border-collapse: collapse;
+    display: grid;
+    align-content: center;
+    text-align: center;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+
+}
+
+.skills p{
+    margin-bottom: 86px;
+}
+
+
+
+.journey {
+
+    width: 100%;
+    height: 110%;
+    position: relative;
+    display: grid;
+    align-content: center;
+    text-align: center;
+    background-color: #FBF4EC;
+    overflow: auto;
+    
+}
+
+.text-journey h2 {
+    margin-bottom: 30px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.text-journey p {
+    font-size: 19px;
+}
+
+.timeline {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: auto;
+    justify-content: center;
+  }
+
+.card-white {
+    background: white;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    width: 220px;
+    text-align: center;
+    padding: 24px;
+    margin: 25px 8px;
+  }
+
+  .card-white h3 {
+    color: #EA8C55;
+    font-size: 15px;
+    font-weight: bold;
+  }
+ 
+
+.certificados {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: auto;
+    justify-content: center;
+  }
+
+
+.card-cert {
+
+    background: white;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    width: 450px;
+    text-align: center;
+    justify-content: center;
+    padding: 24px;
+    margin: 25px 8px;
+
+}
+
+.card-cert p {
+    justify-content: center !important;
+}
+
+
+.card-cert h3 {
+    color: #EA8C55;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+
+.contacts {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-content: center;
+    text-align: center;
+}
+
+.contacts ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts li {
+    margin: 30px 10px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    font-weight: bold;
+    background-color: #FBF4EC;
+    border-radius: 30px;
+    border: 2px solid transparent;
+}
+
+.contacts li a{
+    color: black;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+.contacts img {
+    width: 15px;
+    margin-right: 5px;
+}
